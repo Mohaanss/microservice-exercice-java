@@ -1044,3 +1044,15 @@
 1738744076596|0|commit|connection 7|url jdbc:postgresql://localhost:5432/hello||
 1738744103672|0|statement|connection 8|url jdbc:postgresql://localhost:5432/hello|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=?|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=26
 1738744103673|0|commit|connection 8|url jdbc:postgresql://localhost:5432/hello||
+1738745793042|4|statement|connection 1|url jdbc:postgresql://localhost:5432/hello|select * from information_schema.sequences|select * from information_schema.sequences
+1738746269205|6|statement|connection 1|url jdbc:postgresql://localhost:5432/hello|select * from information_schema.sequences|select * from information_schema.sequences
+1738748214295|6|statement|connection 1|url jdbc:postgresql://localhost:5432/hello|select * from information_schema.sequences|select * from information_schema.sequences
+1738748249911|5|statement|connection 1|url jdbc:postgresql://localhost:5432/hello|select * from information_schema.sequences|select * from information_schema.sequences
+1738748898599|2|statement|connection 2|url jdbc:postgresql://localhost:5432/hello|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0
+1738748898608|2|commit|connection 2|url jdbc:postgresql://localhost:5432/hello||
+1738748985841|0|statement|connection 3|url jdbc:postgresql://localhost:5432/hello|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0
+1738748985844|0|commit|connection 3|url jdbc:postgresql://localhost:5432/hello||
+1738749121091|0|statement|connection 4|url jdbc:postgresql://localhost:5432/hello|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0
+1738749121095|0|commit|connection 4|url jdbc:postgresql://localhost:5432/hello||
+1738749312071|1|statement|connection 5|url jdbc:postgresql://localhost:5432/hello|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=?|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=26
+1738749312072|0|commit|connection 5|url jdbc:postgresql://localhost:5432/hello||

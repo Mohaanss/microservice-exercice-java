@@ -5,7 +5,9 @@ import com.exo1.exo1.dto.StudentDto;
 import com.exo1.exo1.entity.Student;
 import com.exo1.exo1.mapper.StudentMapper;
 import com.exo1.exo1.repository.StudentRepository;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import lombok.AllArgsConstructor;
+import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import org.webjars.NotFoundException;
@@ -21,6 +23,8 @@ import java.util.Optional;
 public class StudentService {
     private final StudentRepository studentRepository;
     private final RestTemplate restTemplate;
+    private final DiscoveryClient discoveryClient;
+
     private StudentMapper studentMapper;
     public List<StudentDto> findAll() {
         return studentMapper.toDtos(studentRepository.findAll());
@@ -31,9 +35,9 @@ public class StudentService {
     }
 
     public Map<String, Object> findById(String id) {
+        ServiceInstance serviceInstance = discoveryClient.getInstances("EXO1").get(0);
         Optional<Student> student = studentRepository.findById(id);
-        String schoolUrl = "http://localhost:8081/school/" + student.get().getSchool_id();
-        Map<String, Object> school = restTemplate.getForObject(schoolUrl, Map.class);
+        Map<String, Object> school = restTemplate.getForObject(serviceInstance.getUri() + "/school/" +student.get().getSchool_id(), Map.class);
 
         // 5. Ajouter les infos de School au Student sous forme de Map
         Map<String, Object> response = new HashMap<>();
