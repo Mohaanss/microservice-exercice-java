@@ -1,0 +1,8 @@
+com/exo1/exo1/entity/Student.class
+com/exo1/exo1/Exo1Application.class
+com/exo1/exo1/repository/StudentRepository.class
+com/exo1/exo1/controller/StudentController.class
+com/exo1/exo1/mapper/StudentMapperImpl.class
+com/exo1/exo1/mapper/StudentMapper.class
+com/exo1/exo1/dto/StudentDto.class
+com/exo1/exo1/service/StudentService.class
