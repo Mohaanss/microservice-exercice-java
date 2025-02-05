@@ -3,5 +3,6 @@
 /Users/ansar/Documents/renforcementBackend/microservice/spring-startup-mb/src/main/java/com/exo1/exo1/Exo1Application.java
 /Users/ansar/Documents/renforcementBackend/microservice/spring-startup-mb/src/main/java/com/exo1/exo1/service/StudentService.java
 /Users/ansar/Documents/renforcementBackend/microservice/spring-startup-mb/src/main/java/com/exo1/exo1/mapper/StudentMapper.java
+/Users/ansar/Documents/renforcementBackend/microservice/spring-startup-mb/src/main/java/com/exo1/exo1/config/RestTemplateConfig.java
 /Users/ansar/Documents/renforcementBackend/microservice/spring-startup-mb/src/main/java/com/exo1/exo1/dto/StudentDto.java
 /Users/ansar/Documents/renforcementBackend/microservice/spring-startup-mb/src/main/java/com/exo1/exo1/controller/StudentController.java
