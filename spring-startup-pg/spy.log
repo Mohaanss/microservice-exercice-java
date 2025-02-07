@@ -1755,3 +1755,20 @@
 1738829470188|0|commit|connection 6|url jdbc:postgresql://localhost:5432/hello||
 1738829470384|0|statement|connection 31|url jdbc:postgresql://localhost:5432/hello|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=?|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=26
 1738829470385|0|commit|connection 31|url jdbc:postgresql://localhost:5432/hello||
+1738919606389|9|statement|connection 1|url jdbc:postgresql://localhost:5432/hello|select * from information_schema.sequences|select * from information_schema.sequences
+1738919670808|14|statement|connection 2|url jdbc:postgresql://localhost:5432/hello|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=?|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=26
+1738919670818|2|commit|connection 2|url jdbc:postgresql://localhost:5432/hello||
+1738919740403|3|statement|connection 3|url jdbc:postgresql://localhost:5432/hello|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=?|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=26
+1738919740404|0|commit|connection 3|url jdbc:postgresql://localhost:5432/hello||
+1738919783270|0|statement|connection 4|url jdbc:postgresql://localhost:5432/hello|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=?|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=26
+1738919783271|0|commit|connection 4|url jdbc:postgresql://localhost:5432/hello||
+1738919813917|1|statement|connection 5|url jdbc:postgresql://localhost:5432/hello|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=?|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=26
+1738919813918|0|commit|connection 5|url jdbc:postgresql://localhost:5432/hello||
+1738919898449|1|statement|connection 6|url jdbc:postgresql://localhost:5432/hello|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=?|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=26
+1738919898450|0|commit|connection 6|url jdbc:postgresql://localhost:5432/hello||
+1738920028375|1|statement|connection 7|url jdbc:postgresql://localhost:5432/hello|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=?|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=26
+1738920028377|0|commit|connection 7|url jdbc:postgresql://localhost:5432/hello||
+1738920029342|0|statement|connection 8|url jdbc:postgresql://localhost:5432/hello|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=?|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=26
+1738920029343|0|commit|connection 8|url jdbc:postgresql://localhost:5432/hello||
+1738920030328|1|statement|connection 9|url jdbc:postgresql://localhost:5432/hello|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=?|select s1_0.school_id,s1_0.address,s1_0.director_name,s1_0.name,s1_0.student_id from school s1_0 where s1_0.school_id=26
+1738920030329|0|commit|connection 9|url jdbc:postgresql://localhost:5432/hello||
